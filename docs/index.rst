@@ -21,6 +21,16 @@ User Guide
 
    Overview of the AstroDB Toolkit <pages/overview/organization>
    Installing astrodb-utils <pages/installation>
+   pages/template_repo/index
+   pages/template_schema/template_schema
+
+.. toctree::
+   :caption: Creating a new database
+   :maxdepth: 1
+
+   pages/make_new_db/index
+   pages/modifying/index
+   pages/making_private_version
 
 .. toctree::
    :caption: Working with databases
@@ -29,16 +39,6 @@ User Guide
    pages/loading/index
    pages/querying_existing_db/index
    pages/ingesting/getting_started_ingesting
-
-.. toctree::
-   :caption: Schema & customization
-   :maxdepth: 1
-
-   pages/modifying/index
-   pages/make_new_db/index
-   pages/template_repo/index
-   pages/template_schema/template_schema
-   pages/making_private_version
 
 .. toctree::
    :caption: Utilities & support
