@@ -46,6 +46,11 @@ User Guide
 
    pages/ingesting/spectra/converting_spectra/converting_spectra
    pages/getting_help/index
+
+.. toctree::
+   :caption: Reference Information
+   :maxdepth: 1
+
    Developer documentation <pages/dev_docs/developer_installation>
    API documentation <pages/api>
 
