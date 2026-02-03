@@ -14,20 +14,36 @@ a package built on `SQLAlchemy <https://www.sqlalchemy.org/>`_.
 User Guide
 ==================================
 
+
 .. toctree::
-   :glob:
+   :caption: Getting started
    :maxdepth: 1
 
    Overview of the AstroDB Toolkit <pages/overview/organization>
    Installing astrodb-utils <pages/installation>
+
+.. toctree::
+   :caption: Working with databases
+   :maxdepth: 1
+
    pages/loading/index
    pages/querying_existing_db/index
    pages/ingesting/getting_started_ingesting
+
+.. toctree::
+   :caption: Schema & customization
+   :maxdepth: 1
+
    pages/modifying/index
    pages/make_new_db/index
    pages/template_repo/index
    pages/template_schema/template_schema
    pages/making_private_version
+
+.. toctree::
+   :caption: Utilities & support
+   :maxdepth: 1
+
    pages/ingesting/spectra/converting_spectra/converting_spectra
    pages/getting_help/index
    Developer documentation <pages/dev_docs/developer_installation>
